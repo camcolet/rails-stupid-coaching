@@ -1,0 +1,54 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 60px;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.container {
+  margin: 10px;
+  width: 600px;
+}
+
+ #btn {
+  color: white;
+  background-color: #B7D3F2;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  &:hover {
+    background-color: #84AFE6;
+  }
+ }
+
+#input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #B7D3F2;
+  width: 300px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+.you {
+  border: 1px solid #e8e8e8;
+  padding: 10px 40px;
+}
+
+.coach {
+  margin-top: 10px;
+  border: 1px solid #e8e8e8;
+  padding: 10px 40px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  color: #84AFE6;
+}

@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div class="you">
+    <p>
+      <%= p params[:answer] %>
+    </p>
+    <p>
+      <em><%= p "- You"%></em>
+    </p>
+  </div>
+
+  <div class="coach">
+    <p>
+    <%= if params[:answer] == "I am going to work"
+      p "Great"
+    elsif params[:answer].include? "?"
+      p "Silly question, get dressed and go to work!"
+    else p "I don't care, get dressed and go to work!"
+    end %>
+    </p>
+    <p>
+      <em><%= p "- Your coach"%></em>
+    </p>
+  </div>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
